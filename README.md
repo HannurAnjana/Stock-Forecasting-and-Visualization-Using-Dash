@@ -1,1 +1,1 @@
-# Stock-Forecastng-and-Visualization-Using-Dash
+# STOCKS-FORECASTING-AND-VISUALIZATION-USING-DASH
