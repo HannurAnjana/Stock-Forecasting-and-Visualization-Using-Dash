@@ -13,7 +13,8 @@ A simple dash app which produces dynamic plots of the closing prices and exponen
 
 -->requirements.txt is correct versions of the required Python packages to run the Python code.
 
-![a1](https://user-images.githubusercontent.com/105103245/173184120-91aef51b-0ef9-4089-9f83-073e00dc88ad.JPG)
+![a1](https://user-images.githubusercontent.com/92010293/173184543-2dc23640-cd20-4f73-a25d-690ce25862ed.JPG)
+
 
 
 
