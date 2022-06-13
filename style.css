@@ -1,15 +1,15 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing:0;
     font-family: "Roboto", sans-serif;
   }
   
   body {
     overflow-x: hidden;
-    color: #EDC7BC;
+    color: #2d073b;
     font-size: 15px;
-    background-color: #659DBD;
+    background-color: #eee0ee;
 
   }
   .container {
@@ -18,55 +18,66 @@
   }
   
   .nav {
-    /*position: fixed;*/
-    width: 25vw;
-    /* height: 100%; */
+    /position: fixed;/
+    width: 30vw;
+    height: 100%; 
     align-items: center;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    background-color: #376E6F;
+    background-color: #654b72;
   }
   
   .content {
     width: 65vw;
-    padding: 2rem 5rem;
+    padding: 1rem 5rem;
   }
   
   .start {
-    margin-top: 2rem;
-    margin-bottom: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
     text-align: center;
-    font-size: larger;
-    color: rgb(204, 222, 233);
+    font-size: 1rem;
+    font-weight: bolder;
+    line-height: 10px;
+    color: rgb(245, 223, 24);
   }
   
   .input-place p {
-    color: EDC7BC;
+    color:  rgb(235, 223, 114);
     font-size: larger;
+    font-weight:400;
+
   }
   .form {
     display: flex;
-    margin-top: 1rem;
+    margin-top: 0rem;
     margin-bottom: 2rem;
     height: 1.5rem;
   }
   .form button {
-    width: 5rem;
-    background-color: #fac0a7;
-    color: #2E151B;
+    width: 6rem;
+    background-color: #df6b84;
+    color: #131212;
     border: none;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+    border: 2px solid #ecce22;
+  }
+  .form button:hover {
+    background-color: #0f080a;
+    color: #88c988;
   }
   .buttons {
     margin: 2rem;
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-wrap: wrap;
     position: relative;
     justify-content: space-around;
   }
   #forecast {
-    margin-top: 2rem;
+    margin-top: 2.2rem;
     height: 2.2rem;
   }
   #n_days {
@@ -74,11 +85,17 @@
     margin-top: 2rem;
   }
   .buttons button {
-    width: 7.5rem;
+    width: 8.5rem;
     height: 2.5rem;
-    border: none;
-    background-color: #CAFAFE;
-    color: #116456;
+    border: 2px solid #df6b84;
+    border-radius: 8px;
+    background-color: #88c998;
+    color: #030008;
+    transition-duration: 0.4s;
+  }
+  .buttons button:hover {
+    background-color: #0f080a;
+    color: #88c988;
   }
   
   .header {
@@ -88,12 +105,15 @@
     margin-bottom: 2rem;
   }
   .header p {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-style:initial;
     margin-left: 3rem;
-    line-height: 80%;
+    line-height: 100%;
   }
   
   #logo {
     max-width: 100rem;
-    height: auto;
+    height:auto;
+    
   }
