@@ -44,9 +44,9 @@ app.layout = html.Div(
         html.Div(
             [
                 # Navigation
-                html.P("WELCOME TO THE STOCK DASH APP!", className="start"),
+                html.P("✴ WELCOME TO THE STOCK DASH APP! ✴", className="start"),
                 html.Div([
-                    html.P("INPUT A STOCK CODE: "),
+                    html.P("🔘Input a stock code: "),
                     html.Div([
                         dcc.Input(id="dropdown_tickers", type="text"),
                         html.Button("Submit", id='submit'),
@@ -64,15 +64,15 @@ app.layout = html.Div(
                          className="date"),
                 html.Div([
                     html.Button(
-                        "Stock Price", className="stock-btn", id="stock"),
-                    html.Button("Indicators",
+                        "📊Stock Price", className="stock-btn", id="stock"),
+                    html.Button("📈📉Indicators",
                                 className="indicators-btn",
                                 id="indicators"),
                     dcc.Input(id="n_days",
                               type="text",
                               placeholder="Input number of days"),
                     html.Button(
-                        "Forecast", className="forecast-btn", id="forecast")
+                        "🕵️‍♀️Forecast", className="forecast-btn", id="forecast")
                 ],
                          className="buttons"),
                 # here
@@ -109,7 +109,7 @@ app.layout = html.Div(
 ], [Input("submit", "n_clicks")], [State("dropdown_tickers", "value")])
 def update_data(n, val):  # input parameter(s)
     if n == None:
-        return "PLEASE Enter a legitimate stock code to get the details.","https://i.postimg.cc/ydbwyMmr/stocks.jpg", "STOCKS FORECASTER AND VISUALIZER", None, None, None
+        return "Data Visualization in stock market helps traders when making decisions quickly and enables them to easily synthesize large amount of complex information.* PLEASE Enter a legitimate stock code to get the details.*","https://i.im.ge/2022/06/11/rHQ4qz.jpg", "STOCKS FORECASTER🕵️ AND VISUALIZER", None, None, None
         # raise PreventUpdate
     else:
         if val == None:
